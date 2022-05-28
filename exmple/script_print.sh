@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$1" != "" ]; then
+if [ "$1" != "" || "$1" != " " ]; then
 	echo "You enter arg cmd: $1"
 	exit
 fi
